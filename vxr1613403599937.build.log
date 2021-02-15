@@ -1,0 +1,431 @@
+2021-02-15 15:24:25,117	 INFO	com.ixiasoft.outputgenerator.preprocessor.AntProcessor	No DITAVAL file provided
+2021-02-15 15:24:25,118	 INFO	com.ixiasoft.outputgenerator.preprocessor.AntProcessor	User provided a PROPERTY file. Saving under C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\vxr1613403599937.properties
+2021-02-15 15:24:25,328	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [load_properties] in file [conductor-ot.xml]
+2021-02-15 15:24:25,333	 INFO	org.apache.tools.ant.taskdefs.Echo	Load the job properties from file C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\vxr1613403599937.properties
+2021-02-15 15:24:25,334	 INFO	org.apache.tools.ant.taskdefs.Echo	All properties are prefixed with "outgen.job.userparam"
+2021-02-15 15:24:25,341	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [load_properties] in file [conductor-ot.xml]
+2021-02-15 15:24:25,341	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [outgen_job_read_ot_version_from_properties] in file [conductor-ot.xml]
+2021-02-15 15:24:25,343	 INFO	org.apache.tools.ant.taskdefs.Echo	DITA OT Version loaded from outgen-init.properties: 3.6
+2021-02-15 15:24:25,343	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [outgen_job_read_ot_version_from_properties] in file [conductor-ot.xml]
+2021-02-15 15:24:25,343	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [outgen_job_set_ot_foldername] in file [conductor-ot.xml]
+2021-02-15 15:24:25,347	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [outgen_job_set_ot_foldername] in file [conductor-ot.xml]
+2021-02-15 15:24:25,347	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [outgen_job_set_ot_dir] in file [conductor-ot.xml]
+2021-02-15 15:24:25,348	 INFO	org.apache.tools.ant.taskdefs.Echo	DITA OT directory: C:\Ixiasoft\OutputGenerators\63\data\dita-ot-3.6
+2021-02-15 15:24:25,349	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [outgen_job_set_ot_dir] in file [conductor-ot.xml]
+2021-02-15 15:24:25,349	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [outgen_job_init_ixiasoft] in file [conductor-ot.xml]
+2021-02-15 15:24:25,358	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [outgen_job_init_ixiasoft] in file [conductor-ot.xml]
+2021-02-15 15:24:25,359	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [outgen_job_init_post] in file [conductor-ot.xml]
+2021-02-15 15:24:25,360	 INFO	org.apache.tools.ant.taskdefs.Echo	Setting the property ${outgen.job.default.pdf.formatter} to the value "fop"
+2021-02-15 15:24:25,361	 INFO	org.apache.tools.ant.taskdefs.Echo	Setting the property ${outgen.job.ant.java.home} to the value "C:\Ixiasoft\OutputGenerators\63\jdk1.8.0_202\jre"
+2021-02-15 15:24:25,361	 INFO	org.apache.tools.ant.taskdefs.Echo	Setting the property ${outgen.job.ant.java.memory} to the value "512m"
+2021-02-15 15:24:25,362	 INFO	org.apache.tools.ant.taskdefs.Echo	Setting the property ${outgen.job.ant.opts} to the value "-Xmx512m -Djavax.xml.transform.TransformerFactory=net.sf.saxon.TransformerFactoryImpl"
+2021-02-15 15:24:25,362	 INFO	org.apache.tools.ant.taskdefs.Echo	Setting the property ${outgen.job.ant.java.cmd} to the value ""
+2021-02-15 15:24:25,363	 INFO	org.apache.tools.ant.taskdefs.Echo	Setting the property ${outgen.job.ant.args} to the value ""
+2021-02-15 15:24:25,364	 INFO	org.apache.tools.ant.taskdefs.Echo	Setting the property ${outgen.job.ant.path} to the value "C:\Program Files (x86)\ImageMagick-7.0.10-Q16-HDRI;C:\Program Files\Antenna House\AHFormatterV64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\dita-ot-2.3.2\bin;C;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"
+2021-02-15 15:24:25,366	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [outgen_job_init_post] in file [conductor-ot.xml]
+2021-02-15 15:24:25,366	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [default_dependencies_ixiasoft] in file [conductor-ot.xml]
+2021-02-15 15:24:25,398	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [echo_outgen_properties ] in file [conductor-ot.xml]
+2021-02-15 15:24:25,401	 INFO	org.apache.tools.ant.taskdefs.Echo	The properties are saved in C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\vxr1613403599937.ant-outgen[15h24m25.400s].properties
+2021-02-15 15:24:25,409	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [echo_outgen_properties ] in file [conductor-ot.xml]
+2021-02-15 15:24:25,410	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [default_dependencies_ixiasoft] in file [conductor-ot.xml]
+2021-02-15 15:24:25,410	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [flatten] in file [conductor-ot.xml]
+2021-02-15 15:24:25,411	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [flatten] in file [conductor-ot.xml]
+2021-02-15 15:24:25,411	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [resolve_container_keyref] in file [conductor-ot.xml]
+2021-02-15 15:24:25,429	 INFO	com.ixiasoft.outputgenerator.antTasks.ResolveKeyrefs	Resolving keyrefs for C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\content\authoring\vxr1613403599937.ditamap
+2021-02-15 15:24:25,429	 INFO	com.ixiasoft.outputgenerator.utils.KeyrefResolver	Resolving keyrefs for 1 files
+2021-02-15 15:24:25,429	 INFO	com.ixiasoft.outputgenerator.utils.KeyrefResolver	Loading key definitions...
+2021-02-15 15:24:25,597	 INFO	com.ixiasoft.outputgenerator.utils.KeyrefResolver	Key definitions loaded from 7 maps
+2021-02-15 15:24:25,597	 INFO	com.ixiasoft.outputgenerator.utils.KeyrefResolver	Resolving key references...
+2021-02-15 15:24:25,838	 INFO	com.ixiasoft.outputgenerator.utils.KeyrefResolver	Key references resolved for 28 files
+2021-02-15 15:24:25,838	 INFO	com.ixiasoft.outputgenerator.utils.KeyrefResolver	Key resolution completed
+2021-02-15 15:24:25,838	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [resolve_container_keyref] in file [conductor-ot.xml]
+2021-02-15 15:24:25,839	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [extract_LowRes_images] in file [conductor-ot.xml]
+2021-02-15 15:24:25,970	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [extract_LowRes_images] in file [conductor-ot.xml]
+2021-02-15 15:24:25,970	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [markdownwrapper] in file [conductor-ot.xml]
+2021-02-15 15:24:25,971	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [ot_build_add_ditaval_ifpresent] in file [conductor-ot.xml]
+2021-02-15 15:24:25,971	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [ot_build_add_ditaval_ifpresent] in file [conductor-ot.xml]
+2021-02-15 15:24:25,972	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [ot_build_clean_ot_temp] in file [conductor-ot.xml]
+2021-02-15 15:24:25,972	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [ot_build_clean_ot_temp] in file [conductor-ot.xml]
+2021-02-15 15:24:25,972	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,972	 INFO	org.apache.tools.ant.taskdefs.Echo	DITA OT property "transtype" is set to "markdown"
+2021-02-15 15:24:25,972	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,973	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,973	 INFO	org.apache.tools.ant.taskdefs.Echo	DITA OT property "args.rellinks" is set to "all"
+2021-02-15 15:24:25,973	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,973	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,973	 INFO	org.apache.tools.ant.taskdefs.Echo	DITA OT property "args.draft" is set to "yes"
+2021-02-15 15:24:25,974	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,974	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,974	 INFO	org.apache.tools.ant.taskdefs.Echo	DITA OT property "args.figurelink.style" is set to "NUMBER"
+2021-02-15 15:24:25,974	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,974	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,975	 INFO	org.apache.tools.ant.taskdefs.Echo	DITA OT property "args.tablelink.style" is set to "NUMBER"
+2021-02-15 15:24:25,975	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,975	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,975	 INFO	org.apache.tools.ant.taskdefs.Echo	DITA OT property "args.gen.task.lbl" is set to "YES"
+2021-02-15 15:24:25,975	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [ot_build_set_parameter] in file [conductor-ot.xml]
+2021-02-15 15:24:25,976	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [dita_startcmd_ot_build] in file [conductor-ot.xml]
+2021-02-15 15:24:25,979	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [ot_generate_build_file] in file [conductor-ot.xml]
+2021-02-15 15:24:25,986	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [ot_generate_build_file] in file [conductor-ot.xml]
+2021-02-15 15:24:25,986	 INFO	org.apache.tools.ant.taskdefs.Echo	Launching DITA command: version=3.6, dita.dir=C:\Ixiasoft\OutputGenerators\63\data\dita-ot-3.6
+2021-02-15 15:24:25,986	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [dita_startcmd_ot_build_windows] in file [conductor-ot.xml]
+Searching for integrator.xml ...
+
+init:
+
+init-properties:
+[init-project] Initializing project
+
+check-arg:
+    [mkdir] Created dir: C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\temp
+
+log-arg:
+     [echo] *****************************************************************
+     [echo] * basedir = C:\Ixiasoft\OutputGenerators\63\data\dita-ot-3.6
+     [echo] * dita.dir = C:\Ixiasoft\OutputGenerators\63\data\dita-ot-3.6\bin\..
+     [echo] * transtype = markdown
+     [echo] * tempdir = C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\temp
+     [echo] * outputdir = C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\out
+     [echo] * clean.temp = no
+     [echo] * DITA-OT version = 3.6.0
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = ICU
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Mon Feb 15 15:24:27 EST 2021
+     [echo] args.draft=yes
+     [echo] args.figurelink.style=NUMBER
+     [echo] args.gen.task.lbl=YES
+     [echo] args.grammar.cache=yes
+     [echo] args.input=C\:\\Ixiasoft\\OutputGenerators\\63\\temp\\Markdown.kidda.32.1613420664905\\content\\authoring\\vxr1613403599937.ditamap
+     [echo] args.rellinks=all
+     [echo] args.tablelink.style=NUMBER
+     [echo] args.xml.systemid.set=yes
+     [echo] dita.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\bin\\..
+     [echo] dita.output.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\temp\\Markdown.kidda.32.1613420664905\\out
+     [echo] dita.plugin.com.ixiasoft.dita13.dtd.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\com.ixiasoft.dita13.dtd
+     [echo] dita.plugin.com.ixiasoft.images.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\com.ixiasoft.images
+     [echo] dita.plugin.com.ixiasoft.pdf.review20.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\com.ixiasoft.pdf.review20
+     [echo] dita.plugin.org.dita.base.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.base
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.html5.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.html5
+     [echo] dita.plugin.org.dita.htmlhelp.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.htmlhelp
+     [echo] dita.plugin.org.dita.index.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.index
+     [echo] dita.plugin.org.dita.normalize.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.normalize
+     [echo] dita.plugin.org.dita.pdf2.axf.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.pdf2.axf
+     [echo] dita.plugin.org.dita.pdf2.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.pdf2
+     [echo] dita.plugin.org.dita.pdf2.fop.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.pdf2.fop
+     [echo] dita.plugin.org.dita.pdf2.xep.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.pdf2.xep
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.specialization.dita11
+     [echo] dita.plugin.org.dita.xhtml.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.dita.xhtml
+     [echo] dita.plugin.org.lwdita.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.lwdita
+     [echo] dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.oasis-open.dita.techcomm.v2_0
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.oasis-open.dita.v1_2
+     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.oasis-open.dita.v1_3
+     [echo] dita.plugin.org.oasis-open.dita.v2_0.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.oasis-open.dita.v2_0
+     [echo] dita.plugin.org.oasis-open.xdita.v0_2_2.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.oasis-open.xdita.v0_2_2
+     [echo] dita.plugin.org.w3c.xhtml.doctypes.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\data\\dita-ot-3.6\\plugins\\org.w3c.xhtml.doctypes
+     [echo] dita.temp.dir=C\:\\Ixiasoft\\OutputGenerators\\63\\temp\\Markdown.kidda.32.1613420664905\\temp
+     [echo] *****************************************************************
+
+build-init:
+
+preprocess.init:
+     [echo] *****************************************************************
+     [echo] * input = C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\content\authoring\vxr1613403599937.ditamap
+     [echo] * resources = ${args.resources}
+     [echo] *****************************************************************
+
+ditaval-merge:
+
+gen-list:
+ [gen-list] Using Xerces grammar pool for DTD and schema caching.
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/vxr1613403599937.ditamap
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/abn1613403601770.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/aiq1613403601234.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/ayw1613403601497.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/bgp1613403600781.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/btp1613403600880.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/cds1613403600830.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/dbq1613403600716.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/dur1613403601089.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/eft1613403600930.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/fxi1613403601349.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/gsi1613403601187.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/hax1613403601447.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/hfz1613403600570.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/hwh1613403600519.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/imf1613403601821.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/iyg1613403601139.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/ldg1613403601288.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/nbo1613403600621.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/ogh1613403601562.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/oma1613403600669.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/ovb1613403601040.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/sll1613403600978.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/tdg1613403601401.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/ucd1613403601662.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/vor1613403601615.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/xim1613403601870.dita
+ [gen-list] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/zfp1613403601721.dita
+ [gen-list] Serializing job specification
+
+debug-filter:
+   [filter] Using Xerces grammar pool for DTD and schema caching.
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/vor1613403601615.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vor1613403601615.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/eft1613403600930.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/eft1613403600930.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/aiq1613403601234.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/aiq1613403601234.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/xim1613403601870.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/xim1613403601870.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/zfp1613403601721.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/zfp1613403601721.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/ucd1613403601662.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ucd1613403601662.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/ayw1613403601497.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ayw1613403601497.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/btp1613403600880.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/btp1613403600880.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/dur1613403601089.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dur1613403601089.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/oma1613403600669.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/oma1613403600669.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/bgp1613403600781.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/bgp1613403600781.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/sll1613403600978.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/sll1613403600978.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/imf1613403601821.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/imf1613403601821.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/ogh1613403601562.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ogh1613403601562.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/cds1613403600830.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/cds1613403600830.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/ldg1613403601288.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ldg1613403601288.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/hax1613403601447.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hax1613403601447.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/dbq1613403600716.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dbq1613403600716.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/fxi1613403601349.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/fxi1613403601349.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/vxr1613403599937.ditamap to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vxr1613403599937.ditamap
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/abn1613403601770.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/abn1613403601770.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/ovb1613403601040.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ovb1613403601040.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/hfz1613403600570.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hfz1613403600570.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/nbo1613403600621.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/nbo1613403600621.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/tdg1613403601401.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/tdg1613403601401.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/iyg1613403601139.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/iyg1613403601139.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/gsi1613403601187.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/gsi1613403601187.dita
+   [filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/content/authoring/hwh1613403600519.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hwh1613403600519.dita
+
+mapref-check:
+
+mapref:
+   [mapref] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vxr1613403599937.ditamap
+
+branch-filter:
+[branch-filter] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vxr1613403599937.ditamap
+
+keyref:
+   [mapref] Transforming into C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\temp
+   [mapref] Loading stylesheet C:\Ixiasoft\OutputGenerators\63\data\dita-ot-3.6\plugins\org.dita.base\xsl\preprocess\mapref.xsl
+   [mapref] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vxr1613403599937.ditamap
+
+copy-to:
+
+conrefpush:
+
+conref:
+
+profile-check:
+
+profile:
+
+topic-fragment:
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vor1613403601615.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/eft1613403600930.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/aiq1613403601234.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/xim1613403601870.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/zfp1613403601721.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ucd1613403601662.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ayw1613403601497.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/btp1613403600880.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dur1613403601089.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/oma1613403600669.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/bgp1613403600781.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/sll1613403600978.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/imf1613403601821.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ogh1613403601562.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/cds1613403600830.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ldg1613403601288.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hax1613403601447.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dbq1613403600716.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/fxi1613403601349.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/abn1613403601770.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ovb1613403601040.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hfz1613403600570.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/nbo1613403600621.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/tdg1613403601401.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/iyg1613403601139.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/gsi1613403601187.dita
+[topic-fragment] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hwh1613403600519.dita
+
+chunk-check:
+
+chunk:
+    [chunk] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vxr1613403599937.ditamap
+
+move-meta-entries:
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vxr1613403599937.ditamap
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vor1613403601615.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/eft1613403600930.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/aiq1613403601234.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/xim1613403601870.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/zfp1613403601721.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ayw1613403601497.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ucd1613403601662.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/btp1613403600880.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dur1613403601089.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/oma1613403600669.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/bgp1613403600781.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/sll1613403600978.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/imf1613403601821.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ogh1613403601562.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/cds1613403600830.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ldg1613403601288.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hax1613403601447.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dbq1613403600716.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/fxi1613403601349.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/abn1613403601770.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ovb1613403601040.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hfz1613403600570.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/nbo1613403600621.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/iyg1613403601139.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/tdg1613403601401.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/gsi1613403601187.dita
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hwh1613403600519.dita
+[move-meta] Loading stylesheet C:\Ixiasoft\OutputGenerators\63\data\dita-ot-3.6\plugins\org.dita.base\xsl\preprocess\mappull.xsl
+[move-meta] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vxr1613403599937.ditamap
+
+maplink-check:
+
+maplink:
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vor1613403601615.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/cds1613403600830.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ogh1613403601562.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/eft1613403600930.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/imf1613403601821.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/sll1613403600978.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/bgp1613403600781.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/fxi1613403601349.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/aiq1613403601234.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dbq1613403600716.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hax1613403601447.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ldg1613403601288.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ucd1613403601662.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ayw1613403601497.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/zfp1613403601721.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/abn1613403601770.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hfz1613403600570.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ovb1613403601040.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/tdg1613403601401.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/iyg1613403601139.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/nbo1613403600621.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dur1613403601089.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/gsi1613403601187.dita
+  [maplink] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/btp1613403600880.dita
+
+topicpull-check:
+
+topicpull:
+[topicpull] Transforming into C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\temp
+[topicpull] Loading stylesheet C:\Ixiasoft\OutputGenerators\63\data\dita-ot-3.6\plugins\org.dita.base\xsl\preprocess\topicpull.xsl
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vor1613403601615.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/eft1613403600930.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/aiq1613403601234.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/xim1613403601870.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/zfp1613403601721.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ucd1613403601662.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ayw1613403601497.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/btp1613403600880.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dur1613403601089.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/oma1613403600669.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/bgp1613403600781.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/sll1613403600978.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/imf1613403601821.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ogh1613403601562.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/cds1613403600830.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ldg1613403601288.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hax1613403601447.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dbq1613403600716.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/fxi1613403601349.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/abn1613403601770.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ovb1613403601040.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hfz1613403600570.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/nbo1613403600621.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/tdg1613403601401.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/iyg1613403601139.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/gsi1613403601187.dita
+[topicpull] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hwh1613403600519.dita
+
+clean-map-check:
+
+clean-map:
+[clean-map] Transforming into C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\temp
+[clean-map] Loading stylesheet C:\Ixiasoft\OutputGenerators\63\data\dita-ot-3.6\plugins\org.dita.base\xsl\preprocess\clean-map.xsl
+[clean-map] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vxr1613403599937.ditamap
+
+clean-preprocess:
+
+copy-image:
+     [copy] Copying 2 files to C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\out
+
+copy-html:
+
+copy-flag-check:
+
+copy-flag:
+
+copy-files:
+
+preprocess:
+
+markdown.init:
+
+markdown.topics.common:
+
+markdown.topics.common.inner:
+     [xslt] Transforming into C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\out
+     [xslt] Loading stylesheet C:\Ixiasoft\OutputGenerators\63\data\dita-ot-3.6\plugins\org.lwdita\xsl\dita2markdown.xsl
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vor1613403601615.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/vor1613403601615.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/eft1613403600930.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/eft1613403600930.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/aiq1613403601234.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/aiq1613403601234.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/xim1613403601870.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/xim1613403601870.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/zfp1613403601721.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/zfp1613403601721.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ucd1613403601662.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/ucd1613403601662.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ayw1613403601497.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/ayw1613403601497.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/btp1613403600880.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/btp1613403600880.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dur1613403601089.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/dur1613403601089.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/oma1613403600669.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/oma1613403600669.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/bgp1613403600781.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/bgp1613403600781.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/sll1613403600978.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/sll1613403600978.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/imf1613403601821.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/imf1613403601821.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ogh1613403601562.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/ogh1613403601562.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/cds1613403600830.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/cds1613403600830.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ldg1613403601288.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/ldg1613403601288.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hax1613403601447.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/hax1613403601447.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/dbq1613403600716.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/dbq1613403600716.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/fxi1613403601349.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/fxi1613403601349.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/abn1613403601770.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/abn1613403601770.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/ovb1613403601040.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/ovb1613403601040.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hfz1613403600570.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/hfz1613403600570.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/nbo1613403600621.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/nbo1613403600621.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/tdg1613403601401.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/tdg1613403601401.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/iyg1613403601139.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/iyg1613403601139.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/gsi1613403601187.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/gsi1613403601187.md
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/hwh1613403600519.dita to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/hwh1613403600519.md
+
+markdown.topic:
+
+markdown.map.init:
+
+markdown.map.toc:
+     [xslt] Transforming into C:\Ixiasoft\OutputGenerators\63\temp\Markdown.kidda.32.1613420664905\out
+     [xslt] Loading stylesheet C:\Ixiasoft\OutputGenerators\63\data\dita-ot-3.6\plugins\org.lwdita\xsl\map2markdown-cover.xsl
+     [xslt] Processing file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/temp/vxr1613403599937.ditamap to file:/C:/Ixiasoft/OutputGenerators/63/temp/Markdown.kidda.32.1613420664905/out/index.md
+
+markdown.map:
+
+dita2markdown:
+
+clean-temp:
+2021-02-15 15:24:31,419	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [dita_startcmd_ot_build_windows] in file [conductor-ot.xml]
+2021-02-15 15:24:31,419	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [dita_startcmd_ot_build] in file [conductor-ot.xml]
+2021-02-15 15:24:31,419	 INFO	org.apache.tools.ant.taskdefs.Echo	Target start [clean_ot_output] in file [conductor-ot.xml]
+2021-02-15 15:24:31,420	 WARN	org.apache.tools.ant.taskdefs.Echo	Clean OT outputdir is disabled with property outgen.job.clean.outputdir set to "yes" or property job.clean.outputdir set to any value
+2021-02-15 15:24:31,420	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [clean_ot_output] in file [conductor-ot.xml]
+2021-02-15 15:24:31,420	 INFO	org.apache.tools.ant.taskdefs.Echo	Target end [markdownwrapper] in file [conductor-ot.xml]
